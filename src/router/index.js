@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import PostPage from '@/views/PostPage.vue';
 import HomePage from '@/views/HomePage.vue';
 import AboutPage from '@/views/AboutPage.vue';
+import ChatsPage from '@/views/ChatsPage.vue';
+import ProfilePage from '@/views/ProfilePage.vue';
 
 // Define routes
 const routes = [
@@ -22,6 +24,16 @@ const routes = [
     name:'Posts',
     component: PostPage,
 
+  },
+  {
+    path:'/chats',
+    name:'Chats',
+    component:ChatsPage,
+  },
+  {
+    path:'/profile',
+    name:'Profile',
+    component:ProfilePage,
   }
 ];
 

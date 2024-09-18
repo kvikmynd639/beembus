@@ -34,6 +34,12 @@
           <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
         </router-link>
       </li>
+      <li>
+        <router-link to="/about" class="relative group">
+          About
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+        </router-link>
+      </li>
     </ul>
 
     <!-- Dropdown Menu (Mobile) -->
